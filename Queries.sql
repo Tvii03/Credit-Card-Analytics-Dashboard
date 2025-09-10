@@ -66,12 +66,12 @@ DELIMITER ','
 CSV HEADER;
 
 --6 Delete duplicate records
-delete from cc_detail a
-using cc_detail b
-where a.ctid>b.ctid
-and a."client_num"= b."client_num";
+DELETE FROM cc_detail a
+USING cc_detail b
+WHERE a.ctid>b.ctid
+AND a."client_num"= b."client_num";
 
-delete from cust_detail a
-using cust_detail b
-where a.ctid>b.ctid
-and a."Client_Num"= b."Client_Num";
+DELETE FROM cust_detail a
+USING cust_detail b
+WHERE a.ctid>b.ctid
+AND a."Client_Num"= b."Client_Num";
