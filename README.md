@@ -1,4 +1,5 @@
 # Credit-Card-Analytics-Dashboard (Power BI)
+📁 Project Overview
 This repository contains an interactive Power BI Dashboard that provides insights into Credit Card Transactions and Customer Profiles.
 It is designed to help financial institutions, analysts, and business teams track key performance metrics, customer demographics, and spending behaviors.
 
